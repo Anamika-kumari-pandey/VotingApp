@@ -121,10 +121,10 @@ contract VotingApp {
 }
 
 
+## 🚀 How to Run Locally
 
-
-🚀 How to Run Locally
-1️⃣ Clone the Repository
+### 🧭 1️⃣ Clone the Repository
+```bash
 git clone https://github.com/Anamika-kumari-pandey/Voting-DApp-on-Celo.git
 cd Voting-DApp-on-Celo
 
