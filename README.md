@@ -2,11 +2,14 @@
 A simple decentralized voting application built with Solidity and deployed on the Celo Blockchain (Sepolia Testnet).
 This project demonstrates how blockchain can ensure fair, transparent, and tamper-proof voting.
 <img width="1896" height="955" alt="Screenshot 2025-10-29 140429" src="https://github.com/user-attachments/assets/95e57694-db25-45a9-b091-3a7d820dc020" />
+
 📜 Project Description
+
 Voting DApp allows users to vote for their favorite candidates in a transparent way.
 Each voter can vote only once, and every vote is recorded on-chain, making it immutable and verifiable.
 
 The project is designed for beginners learning Solidity and Celo smart contract development.
+
 
 ⚙️ What It Does
 The contract owner deploys the smart contract with a list of candidates.
@@ -14,6 +17,7 @@ Users connect their wallet and vote for their preferred candidate.
 Each address can vote only once.
 The owner can close the voting when it’s over.
 Results can be viewed directly from the blockchain.
+
 🌟 Features
 🧠 Simple & Beginner-Friendly: Easy to understand Solidity structure.
 🔒 One-Vote Rule: Each wallet address can only vote once.
@@ -31,8 +35,7 @@ Deployed Transaction:
 🚀 How to Run Locally
 Clone the repository
 
-git clone https://github.com/Anamika-kumari-pandey/XXX.git
-cd XXX
+git clone https:https://github.com/Anamika-kumari-pandey/VotingApp/edit/main/README.md
 Open Remix IDE
 
 Visit Remix IDE
