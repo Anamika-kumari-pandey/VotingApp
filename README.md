@@ -3,6 +3,7 @@
 A simple decentralized voting application built with Solidity and deployed on the **Celo Blockchain (Sepolia Testnet)**.  
 This project demonstrates how blockchain ensures fair, transparent, and tamper-proof voting.  
 Perfect for beginners learning Solidity and smart contract deployment.
+ <img width="1896" height="955" alt="Screenshot 2025-10-29 140429" src="https://github.com/user-attachments/assets/3fcdb6d3-6ba7-46d6-acac-4707456d9d0e" />
 
 ---
 
