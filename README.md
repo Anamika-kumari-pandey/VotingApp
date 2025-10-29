@@ -1,52 +1,13 @@
-# 🗳️ Voting DApp on Celo
+# 🗳️ Voting DApp on Celo  
 
-A simple **decentralized voting application** built with **Solidity** and deployed on the **Celo Blockchain (Sepolia Testnet)**.  
-This project demonstrates how blockchain ensures **fair**, **transparent**, and **tamper-proof** voting for everyone.  
-
-![Voting DApp Banner](<img width="1896" height="955" alt="Screenshot 2025-10-29 140429" src="https://github.com/user-attachments/assets/641c7c56-8802-4cac-bd4c-58aced0584c9" />
-
-
----
-
-## 📜 Project Description
-The **Voting DApp** allows users to vote for their favorite candidates in a transparent and verifiable way.  
-Each voter can vote **only once**, and every vote is stored **on-chain**, ensuring it cannot be modified or deleted.
-
-This project is designed for **beginners learning Solidity** and **Celo smart contract development**.
-
----
-
-## ⚙️ What It Does
-- The **contract owner** deploys the smart contract.  
-- The owner can **add candidates** before voting begins.  
-- **Users** connect their wallet and vote for their preferred candidate.  
-- Each wallet address can vote **only once**.  
-- Anyone can view candidate details and vote counts.  
-
----
-
-## 🌟 Features
-🧠 **Beginner-Friendly** — Clean and simple Solidity code.  
-🔒 **One-Vote Rule** — Each wallet address can vote only once.  
-⛓️ **On-Chain Transparency** — Every vote is recorded publicly on the blockchain.  
-🪙 **Deployed on Celo Sepolia** — Uses Celo’s eco-friendly testnet for smooth developer experience.  
-👑 **Owner Privileges** — Only the contract deployer can add candidates.  
-
----
-
-## 📄 Smart Contract Details
-- **Language:** Solidity ^0.8.18  
-- **Framework:** Remix IDE / Hardhat compatible  
-- **Network:** Celo Sepolia Testnet  
-- **License:** MIT  
-
-### 🔗 Deployed Contract
-**Contract Address:** `0xb5cf1226865f615e54ea5059d51f322eb0ab1e0b  
-**View on Blockscout:** [Click Here](https://sepolia-blockscout.celo-testnet.org/)  
+A simple decentralized voting application built with Solidity and deployed on the **Celo Blockchain (Sepolia Testnet)**.  
+This project demonstrates how blockchain ensures fair, transparent, and tamper-proof voting.  
+Perfect for beginners learning Solidity and smart contract deployment.
 
 ---
 
 ## 💻 Smart Contract Code
+
 ```solidity
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.18;
@@ -119,31 +80,58 @@ contract VotingApp {
         return (c.name, c.voteCount);
     }
 }
+```
+
 ---
+
 ## 🚀 How to Run Locally
-🧭 1️⃣ Clone the Repository
+
+### 🧭 1️⃣ Clone the Repository
+```bash
 git clone https://github.com/Anamika-kumari-pandey/Voting-DApp-on-Celo.git
 cd Voting-DApp-on-Celo
- 💻 2️⃣ Open Remix IDE
+```
 
-Visit Remix IDE
+### 💻 2️⃣ Open Remix IDE
+- Visit [Remix IDE](https://remix.ethereum.org)  
+- Create a new file named `VotingApp.sol`  
+- Paste the code above  
 
-Create a new file named VotingApp.sol
+### ⚙️ 3️⃣ Compile & Deploy
+1. Go to the **Solidity Compiler** tab  
+2. Select **Compiler Version → 0.8.18**  
+3. Click **Compile VotingApp.sol**  
+4. Go to the **Deploy & Run Transactions** tab  
+5. Choose **Injected Web3** and connect your **Celo wallet**  
+6. Click **Deploy**  
 
-Paste the code above
-⚙️ 3️⃣ Compile & Deploy
+### 🗳️ 4️⃣ Interact with the Contract
+- `addCandidate("Alice")` → Add a candidate  
+- `vote(0)` → Vote for candidate at index 0  
+- `getCandidate(0)` → View candidate details and vote count  
 
-1.Go to the Solidity Compiler tab
+---
 
-2.Select Compiler Version → 0.8.18
+## 🧩 Future Enhancements
+- 🖥️ Build a React or Next.js front-end using **Celo Composer** or **Ethers.js**  
+- 🧾 Add voter registration and time-based voting limits  
+- 📊 Display live vote counts on UI  
+- 🔐 Integrate decentralized identity (Celo Identity SDK)  
 
-3.Click Compile VotingApp.sol
+---
 
-4.Go to the Deploy & Run Transactions tab
+## 🙌 Acknowledgments
+- 🌍 **Celo Blockchain** — for sustainable Web3 infrastructure  
+- 🧪 **Remix IDE** — for beginner-friendly smart contract testing  
+- 🔍 **Blockscout** — for transparent on-chain analytics  
 
-5.Choose Injected Web3 (connect your Celo wallet)
+---
 
-🗳️ 4️⃣ Interact with the Contract
+## 💡 Pro Tip
+Start small — experiment, break things, and learn how decentralized apps work under the hood!
 
-Add a candidateClick Deploy
-addCandidate("Alice")
+---
+
+## 🧠 Made with ❤️ by  
+**Anamika Kumari Pandey**  
+_Beginner Solidity Developer | Exploring Web3 on Celo 🌿_
