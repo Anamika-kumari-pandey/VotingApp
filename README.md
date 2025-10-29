@@ -119,13 +119,17 @@ contract VotingApp {
         return (c.name, c.voteCount);
     }
 }
+
+
+
+
 🚀 How to Run Locally
 1️⃣ Clone the Repository
-bash
-Copy code
-git clone https://github.com/your-username/Voting-DApp-on-Celo.git
+git clone https://github.com/Anamika-kumari-pandey/Voting-DApp-on-Celo.git
 cd Voting-DApp-on-Celo
+
 2️⃣ Open Remix IDE
+
 Visit Remix IDE
 
 Create a new file named VotingApp.sol
@@ -133,11 +137,13 @@ Create a new file named VotingApp.sol
 Paste the code above
 
 3️⃣ Compile & Deploy
+
 Select Solidity Compiler → 0.8.18
 
 Deploy using Injected Web3 (connect your Celo wallet)
 
 4️⃣ Interact with the Contract
+
 addCandidate("Alice") → Add a candidate
 
 vote(0) → Vote for candidate 0
@@ -145,12 +151,14 @@ vote(0) → Vote for candidate 0
 getCandidate(0) → View candidate details and vote count
 
 🧩 Future Enhancements
+
 🖥️ Build a React or Next.js front-end with Celo Composer or Ethers.js
 🧾 Add voter registration and time-based voting limits
 📊 Display live vote counts on UI
 🔐 Integrate decentralized identity (Celo Identity SDK)
 
 🙌 Acknowledgments
+
 🌍 Celo Blockchain — for sustainable Web3 infrastructure
 
 🧪 Remix IDE — for beginner-friendly smart contract testing
@@ -158,16 +166,8 @@ getCandidate(0) → View candidate details and vote count
 🔍 Blockscout — for transparent on-chain analytics
 
 🧠 Made with ❤️ by Anamika Kumari Pandey
+
 Beginner Solidity Developer | Exploring Web3 on Celo 🌿
-
-yaml
-Copy code
-
----
-
-Would you like me to **add a small project banner image** (like a simple “Voting DApp on Celo” header graphic) for your GitHub repo too?  
-I can generate one for you in your preferred style (e.g. *modern, neon, Celo green*, etc).
-
 
 
 
