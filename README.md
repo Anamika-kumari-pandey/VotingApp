@@ -7,6 +7,45 @@ Perfect for beginners learning Solidity and smart contract deployment.
 
 ---
 
+## 📜 Project Description
+The **Voting DApp** allows users to vote for their favorite candidates in a transparent and verifiable way.  
+Each voter can vote **only once**, and every vote is stored **on-chain**, ensuring it cannot be modified or deleted.
+
+This project is designed for **beginners learning Solidity** and **Celo smart contract development**.
+
+---
+
+## ⚙️ What It Does
+- The **contract owner** deploys the smart contract.  
+- The owner can **add candidates** before voting begins.  
+- **Users** connect their wallet and vote for their preferred candidate.  
+- Each wallet address can vote **only once**.  
+- Anyone can view candidate details and vote counts.  
+
+---
+
+## 🌟 Features
+🧠 **Beginner-Friendly** — Clean and simple Solidity code.  
+🔒 **One-Vote Rule** — Each wallet address can vote only once.  
+⛓️ **On-Chain Transparency** — Every vote is recorded publicly on the blockchain.  
+🪙 **Deployed on Celo Sepolia** — Uses Celo’s eco-friendly testnet for smooth developer experience.  
+👑 **Owner Privileges** — Only the contract deployer can add candidates.  
+
+---
+
+## 📄 Smart Contract Details
+- **Language:** Solidity ^0.8.18  
+- **Framework:** Remix IDE / Hardhat compatible  
+- **Network:** Celo Sepolia Testnet  
+- **License:** MIT  
+
+### 🔗 Deployed Contract
+- **Contract Address:** `0xb5cf1226865f615e54ea5059d51f322eb0ab1e0b`  
+- **View on Blockscout:** [Click Here](https://sepolia-blockscout.celo-testnet.org/)
+
+---
+
+
 ## 💻 Smart Contract Code
 
 ```solidity
